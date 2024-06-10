@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="52199ae2-307c-4b24-bc0d-194e5b592b1d" name="zjk">
+        <fileTransfer rootFolder="/home/hujin" accessType="SFTP" host="172.16.0.42" port="22" sshConfigId="edf6bf54-ea3f-47f1-91f2-8e4dab8365fa" sshConfig="hujin@172.16.0.42:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
