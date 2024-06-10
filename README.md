@@ -12,7 +12,7 @@ https://drive.google.com/file/d/17fmN8eQdLpq2jIMQ_X0IXDPXfI9oVWgq/view
 
 **Model in RobustBench**
 
-Automatic Download By RobustBench Using gdown
+Automatic Download By RobustBench Using Gdown
 
 ## Run Code:
 
@@ -33,3 +33,7 @@ python to_pic.py
 3. **Rethinking Model Ensemble in Transfer-based Adversarial  Attacks (ICLR2024)**     https://arxiv.org/abs/2303.09105
 
 4. 加入对抗训练后的**transformer-based model**还可以上分，但我觉得意义不大
+   
+## Feelings
+
+数据挖掘比赛，要么算法碾压，要么trick有效，最后种子上分，当CV和LB表现不一致时要学会自己分析原因，比如这个比赛“无盒攻击”很明显就在模型集成上，但没太多实际意义，cifar这个数据集图太小，频率太高，开源了，留给后人继续卷吧
