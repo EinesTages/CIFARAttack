@@ -1,4 +1,4 @@
-# CIFarAttack
+# CIFARAttack
 
 ## Competition URL:
 
@@ -37,3 +37,7 @@ python to_pic.py
 ## Feelings
 
 数据挖掘比赛，要么算法碾压，要么trick有效，最后种子上分，当CV和LB表现不一致时要学会自己分析原因，比如这个比赛“无盒攻击”很明显就在模型集成上，但没太多实际意义，cifar这个数据集图太小，频率太高，开源了，留给后人继续卷吧
+
+## Update
+
+做PPT的时候随手又想了两个trick，第一个是在无穷攻击的基础上用二范数攻击方法微调，SSIM基本不会掉太多，这个work了，还有一个不work的，太小丑就不说了
